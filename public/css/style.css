@@ -6707,11 +6707,6 @@ button.bg-primary:focus {
 	background-color: #252531 !important;
 }
 
-.bg-secondary-org {
-	background-color: #252531 !important;
-	height: 450px;
-}
-
 a.bg-secondary:hover,
 a.bg-secondary:focus,
 button.bg-secondary:hover,
@@ -10854,4 +10849,8 @@ h6 {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+}
+
+div[id^="error"] {
+	display: none;
 }
